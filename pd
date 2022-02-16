@@ -5,7 +5,7 @@ function webhookFire()
     local Content = "@everyone"
     local Embed = {
         ["title"] = "Tipped",
-        ["description"] = "You just got tipped ".. rrr .. " Robux! Total Raised: "..tostring(rr),
+        ["description"] = "You just got tipped ".. rrr .. " Robux!",
         ["type"] = "rich",
         ["color"] = tonumber(0x00FFFF)
     }
