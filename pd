@@ -1,0 +1,39 @@
+local r = game:GetService("Players").LocalPlayer.leaderstats.Raised.Value
+local rrr = 0
+function webhookFire()
+    local Headers = {["content-type"] = "application/json"}
+    local Content = ""
+    local Embed = {
+        ["title"] = "Tipped",
+        ["description"] = "You just got tipped: ".. rrr .. " Robux!",
+        ["type"] = "rich",
+        ["color"] = tonumber(0x00FFFF)
+    }
+    (syn and syn.request or http_request or http.request) {
+        Url = getgenv().WebhookURL;
+        Method = 'POST';
+        Headers = {
+        ['Content-Type'] = 'application/json';
+    };
+    Body = game:GetService('HttpService'):JSONEncode({content = Content; embeds = {Embed}; });
+    };
+end
+rconsolename("Pls Donate!, Amount Raised")
+getgenv().c = true
+while getgenv().c do
+    local rr = game:GetService("Players").LocalPlayer.leaderstats.Raised.Value
+    if r ~= rr then
+        rrr = r - rr
+        rrr = rrr - rrr*2
+        if getgenv().RConsole then
+            rconsoleprint("@@LIGHT_GREEN@@")
+            rconsoleprint(rrr.. " Raised".. "\n")
+            rconsoleprint("@@@@YELLOW@@@@")
+            rconsoleprint("Total Raised: ".. rr .. "\n")
+        end
+        r = game:GetService("Players").LocalPlayer.leaderstats.Raised.Value
+        webhookFire()
+        rrr = 0
+    end
+    wait()
+end
