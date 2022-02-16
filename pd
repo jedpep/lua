@@ -18,7 +18,10 @@ function webhookFire()
     Body = game:GetService('HttpService'):JSONEncode({content = Content; embeds = {Embed}; });
     };
 end
-rconsolename("Pls Donate!, Amount Raised")
+webhookFire()
+if getgenv().RConsole then
+    rconsolename("Pls Donate!, Amount Raised")
+end
 getgenv().c = true
 while getgenv().c do
     local rr = game:GetService("Players").LocalPlayer.leaderstats.Raised.Value
