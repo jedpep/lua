@@ -31,7 +31,8 @@ while getgenv().c do
         if getgenv().RConsole then
             rconsoleprint("@@LIGHT_GREEN@@")
             rconsoleprint(rrr.. " Raised".. "\n")
-            rconsoleprint("@@@@YELLOW@@@@".."Total Raised: ".. rr .. "\n")
+            rconsoleprint("@@YELLOW@@")
+            rconsoleprint("Total Raised: ".. rr .. "\n")
         end
         r = game:GetService("Players").LocalPlayer.leaderstats.Raised.Value
         webhookFire()
