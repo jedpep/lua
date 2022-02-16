@@ -2,7 +2,7 @@ local r = game:GetService("Players").LocalPlayer.leaderstats.Raised.Value
 local rrr = 0
 function webhookFire()
     local Headers = {["content-type"] = "application/json"}
-    local Content = ""
+    local Content = "@everyone"
     local Embed = {
         ["title"] = "Tipped",
         ["description"] = "You just got tipped: ".. rrr .. " Robux!",
