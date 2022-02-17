@@ -29,7 +29,7 @@ while getgenv().c do
         rrr = rrr - rrr*2
         if getgenv().RConsole then
             rconsoleprint("@@LIGHT_GREEN@@")
-            rconsoleprint(rrr.."("..math.floor(rrr*0.6)..")".." Raised".. "\n")
+            rconsoleprint(rrr.." ("..math.floor(rrr*0.6).." with tax) Raised".. "\n")
             rconsoleprint("@@YELLOW@@")
             rconsoleprint("Total Raised: ".. rr .. "\n")
         end
