@@ -1,0 +1,11 @@
+getgenv().quality = '192x144' -- 128x96 or 192x144 or 320x240 (320x240 is really laggy, only for really good computers)
+getgenv().y = 0 -- change y position of the screen
+getgenv().screensize = 1 -- size of the screen, studs, 1 = default
+getgenv().spawnOnPlayer = true
+-- this script takes a while to load, please dont execute it twice!
+-- video is only 30 fps, 60 fps would crash your game (only syncs with the audio if ur fps is capped at 30, script does it for u)
+-- if ur game crashes after a few seconds after execution, sorry but ur pc is too bad, this script uses a lot of ram
+
+-- example video https://files.jedpep.wtf/data/misc/badapple/example.mp4 (128x96)
+
+loadstring(game:HttpGet('https://scripts.jedpep.wtf/goofy/badapple.lua'))()
