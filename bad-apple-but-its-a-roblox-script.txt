@@ -10,6 +10,6 @@ getgenv().spawnOnPlayer = true
 -- if ur game crashes after a few seconds after execution, sorry but ur pc is too bad, this script uses a lot of ram
 -- synapse x only because it has to play sound https://x.synapse.to
 
--- example video https://files.jedpep.wtf/data/misc/badapple/example.mp4 (128x96)
+-- example video https://www.youtube.com/watch?v=5shYVGgfEYc
 
 loadstring(game:HttpGet('https://scripts.jedpep.wtf/goofy/badapple.lua'))()
