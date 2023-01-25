@@ -13,3 +13,5 @@ getgenv().spawnOnPlayer = true
 -- example video https://www.youtube.com/watch?v=5shYVGgfEYc
 
 loadstring(game:HttpGet('https://scripts.jedpep.wtf/goofy/badapple.lua'))()
+
+-- u can support me by subscribing to my yt channel or donating @ https://jedpep.wtf/donate
