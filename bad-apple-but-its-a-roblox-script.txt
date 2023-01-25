@@ -1,4 +1,7 @@
 getgenv().quality = '192x144' -- 128x96 or 192x144 or 320x240 (320x240 is really laggy, only for really good computers)
+-- 128x96 = 12,288 parts
+-- 192x144 = 27,648 parts
+-- 320x240 = 76,800 parts
 getgenv().y = 0 -- change y position of the screen
 getgenv().screensize = 1 -- size of the screen, studs, 1 = default
 getgenv().spawnOnPlayer = true
