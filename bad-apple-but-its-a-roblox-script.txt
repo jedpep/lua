@@ -8,6 +8,7 @@ getgenv().spawnOnPlayer = true
 -- this script takes a while to load, please dont execute it twice!
 -- video is only 30 fps, 60 fps would crash your game (only syncs with the audio if ur fps is capped at 30, script does it for u)
 -- if ur game crashes after a few seconds after execution, sorry but ur pc is too bad, this script uses a lot of ram
+-- synapse x only because it has to play sound https://x.synapse.to
 
 -- example video https://files.jedpep.wtf/data/misc/badapple/example.mp4 (128x96)
 
