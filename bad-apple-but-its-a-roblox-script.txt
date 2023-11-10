@@ -1,3 +1,13 @@
+THIS NO LONGER WORKS, AND IM PROBABLY NOT GOING TO UPDATE IT WHEN ROBLOX EXPLOITING COMES BACK
+
+
+
+
+
+
+
+
+
 getgenv().quality = '192x144' -- 128x96 or 192x144 or 320x240 (320x240 is really laggy, only for really good computers)
 -- 128x96 = 12,288 parts
 -- 192x144 = 27,648 parts
